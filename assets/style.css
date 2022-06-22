@@ -44,3 +44,22 @@ a {
 }
 
 
+.cool-tag {
+    background-color: var(--secondary-color);
+    height: 30%;
+    display: flex;
+    padding: 50px;
+    justify-content: right;
+    align-items: flex-end;
+    font-size: 45px;
+}
+
+.cool-tag div {
+    padding: 25px;
+    height: auto;
+}
+.cool-tag h2 {
+    background-color: var(--tertiary-color);
+    padding: 30px;
+    width: auto;
+}
