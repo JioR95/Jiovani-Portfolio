@@ -141,12 +141,6 @@ section {
     justify-content: start;
 }
 
-#RunBuddy {
-    background-image: url(.//images/hero-bg.jpg);
-    height: 500px;
-}
-
-
 .tile-title {
     background-color: var(--primary-color);
     padding: 5px;
@@ -159,6 +153,33 @@ section {
     font-size: 29px;
 }
 
+#RunBuddy {
+    background-image: url(.//images/hero-bg.jpg);
+    height: 575px;
+}
+#RunBuddy:hover {
+    opacity: 0.65;
+}
+#Horiseon {
+    background-image: url(.//images/digital-marketing-meeting.jpg);
+}
+#Horiseon:hover {
+    opacity: 0.65;
+}
+
+#JavaScript {
+    background-image: url(./images/IMG_2837.JPG);
+}
+
+#JavaScript:hover {
+opacity: 0.65;
+}
+#Python{
+    background-image: url(./images/IMG_2838.JPG);
+}
+#Python:hover{
+opacity: 0.65;
+}
 .contact {
 display: flex
 }
