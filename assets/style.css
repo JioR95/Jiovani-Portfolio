@@ -1,7 +1,7 @@
 :root {
---primary-color: grey;
---secondary-color: blue;
---tertiary-color: white;
+--primary-color: red;
+--secondary-color: black;
+--tertiary-color: silver;
 }
 
 * {
@@ -38,6 +38,7 @@ background-size: cover;
 section {
     padding: 50px 50px;
 }
+
 .header {
     padding: 25px 0px;
     background-color: var(--primary-color);
@@ -66,13 +67,13 @@ section {
 
 
 .cool-tag {
-    background-color: var(--secondary-color);
     height: 30%;
     display: flex;
     padding: 50px;
     justify-content: right;
     align-items: flex-end;
     font-size: 45px;
+    background-image: url(.//images/IMG_2840.JPG);
 }
 
 .cool-tag div {
