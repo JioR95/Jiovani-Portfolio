@@ -85,14 +85,35 @@ section {
 
 .work {
     display: flex;
+    justify-content: center;
+    background-color: var(--secondary-color);
+    color: var(--secondary-color);
 
 }
+.work .section-heading {
+    border-right: 5px solid var(--tertiary-color)
+}
+
 .work-tiles {
     font-size: 30px;
     display: flex;
     flex-wrap: wrap;
-    width: 100%;
+    width: 1 75%;
 }
+
+.work-tiles>:first-child {
+    flex: 1 100%;
+}
+
+.work-tiles>:not(:first-child){
+    flex: 1 100%;
+}
+.work-tiles{
+    margin: 10px;
+    padding-bottom: 20px;
+    border: 3px solid var(--tertiary-color)
+}
+
 
 #RunBuddy {
     background-color: aqua;
