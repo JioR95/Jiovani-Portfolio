@@ -79,7 +79,7 @@ section {
     padding-right: 20px;
 }
 .about p {
-    font-size: 30px;
+    font-size: 32px;
 }
 
 
@@ -113,4 +113,23 @@ section {
     background-color: var(--tertiary-color);
     padding: 30px;
     width: auto; 
+}
+.contact {
+display: flex
+}
+
+.contact a {
+color: var(--primary-color);
+}
+
+.contact-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex: 1 75%;
+}
+.contact h2 {
+    font-size: 45px;
+    padding: 30px;
+    width: auto;  
 }
