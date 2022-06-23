@@ -188,8 +188,9 @@ opacity: 0.65;
     opacity: 0.65;
 }
 
-    .contact {
-display: flex
+ .contact {
+display: flex;
+justify-content: center;
 }
 
 .contact a {
