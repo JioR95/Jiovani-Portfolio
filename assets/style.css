@@ -15,6 +15,7 @@ body{
 
 a {
     text-decoration: none;
+    color: var(--secondary-color);
 }
 
 .section-heading {
@@ -45,6 +46,7 @@ section {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    
 }
 
 .header h1 {
@@ -119,7 +121,7 @@ section {
 }
 
 .work-tiles {
-    font-size: 30px;
+    font-size: 34px;
     display: flex;
     flex-wrap: wrap;
     width: 1 75%;
