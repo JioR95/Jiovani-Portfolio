@@ -4,6 +4,7 @@
 --tertiary-color: silver;
 }
 
+/*Element Styles*/
 * {
     margin: 0;
     padding: 0;
@@ -17,6 +18,10 @@ a {
     text-decoration: none;
     color: var(--secondary-color);
 }
+
+/*Element End*/
+
+/*Utility Styles*/
 
 .section-heading {
     font-size: 60px;
@@ -39,6 +44,9 @@ background-size: cover;
 section {
     padding: 50px 50px;
 }
+/*Utility End*/
+
+/*Header Section*/
 
 .header {
     padding: 25px 0px;
@@ -66,7 +74,9 @@ section {
 .header nav ul li {
     margin-right: 50px;
 }
+/*Header End*/
 
+/*Cool Tag Section*/
 
 .cool-tag {
     height: 30%;
@@ -87,6 +97,10 @@ section {
     padding: 30px;
     width: auto;
 }
+/*Cool Tag End*/
+
+/*About Section*/
+
 .about {
     display: flex;
 
@@ -102,9 +116,12 @@ section {
 .about p {
     font-size: 52px;
     text-align: center;
-    
+
 }
 
+/*About Section*/
+
+/*Work Section*/
 
 .work {
     display: flex;
@@ -146,6 +163,7 @@ section {
     align-items: flex-end;
     justify-content: start;
 }
+
 
 .tile-title {
     background-color: var(--primary-color);
@@ -193,6 +211,10 @@ opacity: 0.65;
     opacity: 0.65;
 }
 
+/*Work Section End*/
+
+
+/*Contact Section*/
  .contact {
 display: flex;
 justify-content: center;
@@ -213,3 +235,6 @@ color: var(--primary-color);
     padding: 30px;
     width: auto;  
 }
+
+/*Contact Section*/
+
